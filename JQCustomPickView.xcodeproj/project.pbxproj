@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4D928B1DB7698800993CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D928A1DB7698800993CD9 /* main.m */; };
+		CF4D928E1DB7698800993CD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D928D1DB7698800993CD9 /* AppDelegate.m */; };
+		CF4D92911DB7698800993CD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D92901DB7698800993CD9 /* ViewController.m */; };
+		CF4D92941DB7698800993CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4D92921DB7698800993CD9 /* Main.storyboard */; };
+		CF4D92961DB7698800993CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4D92951DB7698800993CD9 /* Assets.xcassets */; };
+		CF4D92991DB7698800993CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4D92971DB7698800993CD9 /* LaunchScreen.storyboard */; };
+		CF4D92A41DB7698900993CD9 /* JQCustomPickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D92A31DB7698900993CD9 /* JQCustomPickViewTests.m */; };
+		CF4D92AF1DB7698900993CD9 /* JQCustomPickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D92AE1DB7698900993CD9 /* JQCustomPickViewUITests.m */; };
+		CF4D92BE1DB76A0700993CD9 /* JQCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D92BD1DB76A0700993CD9 /* JQCustomPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF4D92A01DB7698900993CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4D927E1DB7698800993CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4D92851DB7698800993CD9;
+			remoteInfo = JQCustomPickView;
+		};
+		CF4D92AB1DB7698900993CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4D927E1DB7698800993CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4D92851DB7698800993CD9;
+			remoteInfo = JQCustomPickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF4D92861DB7698800993CD9 /* JQCustomPickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQCustomPickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4D928A1DB7698800993CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4D928C1DB7698800993CD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF4D928D1DB7698800993CD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF4D928F1DB7698800993CD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF4D92901DB7698800993CD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF4D92931DB7698800993CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF4D92951DB7698800993CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4D92981DB7698800993CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF4D929A1DB7698800993CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4D929F1DB7698900993CD9 /* JQCustomPickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQCustomPickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4D92A31DB7698900993CD9 /* JQCustomPickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQCustomPickViewTests.m; sourceTree = "<group>"; };
+		CF4D92A51DB7698900993CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4D92AA1DB7698900993CD9 /* JQCustomPickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQCustomPickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4D92AE1DB7698900993CD9 /* JQCustomPickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQCustomPickViewUITests.m; sourceTree = "<group>"; };
+		CF4D92B01DB7698900993CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4D92BC1DB76A0700993CD9 /* JQCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQCustomPicker.h; sourceTree = "<group>"; };
+		CF4D92BD1DB76A0700993CD9 /* JQCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQCustomPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4D92831DB7698800993CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D929C1DB7698900993CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D92A71DB7698900993CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4D927D1DB7698800993CD9 = {
+			isa = PBXGroup;
+			children = (
+				CF4D92881DB7698800993CD9 /* JQCustomPickView */,
+				CF4D92A21DB7698900993CD9 /* JQCustomPickViewTests */,
+				CF4D92AD1DB7698900993CD9 /* JQCustomPickViewUITests */,
+				CF4D92871DB7698800993CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4D92871DB7698800993CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4D92861DB7698800993CD9 /* JQCustomPickView.app */,
+				CF4D929F1DB7698900993CD9 /* JQCustomPickViewTests.xctest */,
+				CF4D92AA1DB7698900993CD9 /* JQCustomPickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4D92881DB7698800993CD9 /* JQCustomPickView */ = {
+			isa = PBXGroup;
+			children = (
+				CF4D928C1DB7698800993CD9 /* AppDelegate.h */,
+				CF4D928D1DB7698800993CD9 /* AppDelegate.m */,
+				CF4D928F1DB7698800993CD9 /* ViewController.h */,
+				CF4D92901DB7698800993CD9 /* ViewController.m */,
+				CF4D92BC1DB76A0700993CD9 /* JQCustomPicker.h */,
+				CF4D92BD1DB76A0700993CD9 /* JQCustomPicker.m */,
+				CF4D92921DB7698800993CD9 /* Main.storyboard */,
+				CF4D92951DB7698800993CD9 /* Assets.xcassets */,
+				CF4D92971DB7698800993CD9 /* LaunchScreen.storyboard */,
+				CF4D929A1DB7698800993CD9 /* Info.plist */,
+				CF4D92891DB7698800993CD9 /* Supporting Files */,
+			);
+			path = JQCustomPickView;
+			sourceTree = "<group>";
+		};
+		CF4D92891DB7698800993CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4D928A1DB7698800993CD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF4D92A21DB7698900993CD9 /* JQCustomPickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4D92A31DB7698900993CD9 /* JQCustomPickViewTests.m */,
+				CF4D92A51DB7698900993CD9 /* Info.plist */,
+			);
+			path = JQCustomPickViewTests;
+			sourceTree = "<group>";
+		};
+		CF4D92AD1DB7698900993CD9 /* JQCustomPickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4D92AE1DB7698900993CD9 /* JQCustomPickViewUITests.m */,
+				CF4D92B01DB7698900993CD9 /* Info.plist */,
+			);
+			path = JQCustomPickViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4D92851DB7698800993CD9 /* JQCustomPickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4D92B31DB7698900993CD9 /* Build configuration list for PBXNativeTarget "JQCustomPickView" */;
+			buildPhases = (
+				CF4D92821DB7698800993CD9 /* Sources */,
+				CF4D92831DB7698800993CD9 /* Frameworks */,
+				CF4D92841DB7698800993CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQCustomPickView;
+			productName = JQCustomPickView;
+			productReference = CF4D92861DB7698800993CD9 /* JQCustomPickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF4D929E1DB7698900993CD9 /* JQCustomPickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4D92B61DB7698900993CD9 /* Build configuration list for PBXNativeTarget "JQCustomPickViewTests" */;
+			buildPhases = (
+				CF4D929B1DB7698900993CD9 /* Sources */,
+				CF4D929C1DB7698900993CD9 /* Frameworks */,
+				CF4D929D1DB7698900993CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4D92A11DB7698900993CD9 /* PBXTargetDependency */,
+			);
+			name = JQCustomPickViewTests;
+			productName = JQCustomPickViewTests;
+			productReference = CF4D929F1DB7698900993CD9 /* JQCustomPickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF4D92A91DB7698900993CD9 /* JQCustomPickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4D92B91DB7698900993CD9 /* Build configuration list for PBXNativeTarget "JQCustomPickViewUITests" */;
+			buildPhases = (
+				CF4D92A61DB7698900993CD9 /* Sources */,
+				CF4D92A71DB7698900993CD9 /* Frameworks */,
+				CF4D92A81DB7698900993CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4D92AC1DB7698900993CD9 /* PBXTargetDependency */,
+			);
+			name = JQCustomPickViewUITests;
+			productName = JQCustomPickViewUITests;
+			productReference = CF4D92AA1DB7698900993CD9 /* JQCustomPickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4D927E1DB7698800993CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JoySeeDog;
+				TargetAttributes = {
+					CF4D92851DB7698800993CD9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+					};
+					CF4D929E1DB7698900993CD9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF4D92851DB7698800993CD9;
+					};
+					CF4D92A91DB7698900993CD9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GD9P546353;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF4D92851DB7698800993CD9;
+					};
+				};
+			};
+			buildConfigurationList = CF4D92811DB7698800993CD9 /* Build configuration list for PBXProject "JQCustomPickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4D927D1DB7698800993CD9;
+			productRefGroup = CF4D92871DB7698800993CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4D92851DB7698800993CD9 /* JQCustomPickView */,
+				CF4D929E1DB7698900993CD9 /* JQCustomPickViewTests */,
+				CF4D92A91DB7698900993CD9 /* JQCustomPickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4D92841DB7698800993CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4D92991DB7698800993CD9 /* LaunchScreen.storyboard in Resources */,
+				CF4D92961DB7698800993CD9 /* Assets.xcassets in Resources */,
+				CF4D92941DB7698800993CD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D929D1DB7698900993CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D92A81DB7698900993CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4D92821DB7698800993CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4D92911DB7698800993CD9 /* ViewController.m in Sources */,
+				CF4D928E1DB7698800993CD9 /* AppDelegate.m in Sources */,
+				CF4D928B1DB7698800993CD9 /* main.m in Sources */,
+				CF4D92BE1DB76A0700993CD9 /* JQCustomPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D929B1DB7698900993CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4D92A41DB7698900993CD9 /* JQCustomPickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D92A61DB7698900993CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4D92AF1DB7698900993CD9 /* JQCustomPickViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF4D92A11DB7698900993CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4D92851DB7698800993CD9 /* JQCustomPickView */;
+			targetProxy = CF4D92A01DB7698900993CD9 /* PBXContainerItemProxy */;
+		};
+		CF4D92AC1DB7698900993CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4D92851DB7698800993CD9 /* JQCustomPickView */;
+			targetProxy = CF4D92AB1DB7698900993CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF4D92921DB7698800993CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4D92931DB7698800993CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF4D92971DB7698800993CD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4D92981DB7698800993CD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4D92B11DB7698900993CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF4D92B21DB7698900993CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4D92B41DB7698900993CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomPickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF4D92B51DB7698900993CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomPickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF4D92B71DB7698900993CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomPickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomPickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQCustomPickView.app/JQCustomPickView";
+			};
+			name = Debug;
+		};
+		CF4D92B81DB7698900993CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomPickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomPickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQCustomPickView.app/JQCustomPickView";
+			};
+			name = Release;
+		};
+		CF4D92BA1DB7698900993CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomPickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomPickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQCustomPickView;
+			};
+			name = Debug;
+		};
+		CF4D92BB1DB7698900993CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GD9P546353;
+				INFOPLIST_FILE = JQCustomPickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JQCustomPickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQCustomPickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4D92811DB7698800993CD9 /* Build configuration list for PBXProject "JQCustomPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4D92B11DB7698900993CD9 /* Debug */,
+				CF4D92B21DB7698900993CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4D92B31DB7698900993CD9 /* Build configuration list for PBXNativeTarget "JQCustomPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4D92B41DB7698900993CD9 /* Debug */,
+				CF4D92B51DB7698900993CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF4D92B61DB7698900993CD9 /* Build configuration list for PBXNativeTarget "JQCustomPickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4D92B71DB7698900993CD9 /* Debug */,
+				CF4D92B81DB7698900993CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF4D92B91DB7698900993CD9 /* Build configuration list for PBXNativeTarget "JQCustomPickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4D92BA1DB7698900993CD9 /* Debug */,
+				CF4D92BB1DB7698900993CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4D927E1DB7698800993CD9 /* Project object */;
+}
